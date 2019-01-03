@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  
+  h1{
+   font-size: 2.5em;
+  }
+  
+  h2{
+  font-size: 2em;
+  margin-bottom: 20px 0;
+  }
+  .align{
+    text-align: center;
+  }
+  .clear-fix{
+    clear: both;
+  }
+  .col{
+    float: left;
+  }
+  .col-middle{
+    margin: 0 5%;
+  }
+  .col-3{
+    width: 30%;
+  }
+  
+  .text{
+    display: block;
+    width: 50%;
+    max-height: 100%;
+    padding-top:5%;
+    color: white;
+    margin: auto 0;
+  }
+  
+  body{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  .btn{
+    border-radius: 25px;
+    text-decoration-style: none;
+    text-decoration: none;
+  }
+  /* nav bar*/
+  nav {
+      background-color: #C12127;
+      color: rgba(255,255,255,0.8);
+      padding-top: 15px;
+      height: 10%;
+    }
+  
+    .nav-bar{
+      display:flex;
+      width: 100%;
+      padding-bottom: 15px;
+    }
+  
+    .top-left{
+      width: 63%;
+      margin-left:25px;
+    }
+    
+    nav a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+    }
+  
+    .top-links {
+      float: right;
+      padding: 0;
+      margin: 0 20px 0 0;
+    }
+    
+    .top-links li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    .container{
+      margin: 0 auto;
+      width: 60%;
+      height: 400px;
+    }
+  
+    #header{
+      height: 450px;  
+    }
+  
+    .search-bar-container{
+      width: 100%;
+      display: flex;
+      background-color: rgb(32, 101, 136);
+    }
+  
+    .logo{
+      margin-left:1%;
+    }
+  
+    .search-bar{
+      display: flex;
+      width: 75%;
+      height: 95%;
+      margin-top: 5px;
+    }
+  
+    .search-bar input[type=text]{
+      border: none;
+      background-color: rgb(31, 82, 111);
+      padding: 3px;
+      padding-left: 10%;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 85%;
+    }
+  
+    .search-bar button{
+      float: left;
+      width: 5%;
+      padding: 5px;
+      margin-left: 5px;
+      background:rgb(31, 82, 111);
+      color: white;
+      font-size: 17px;
+      border: none;
+      backface-visibility: inherit;
+      border-left: none; 
+      cursor: pointer;
+    }
+  
+    .login{
+      width:10%;
+      float: right;
+      color: rgb(255, 255, 255);
+      padding: 5px;
+      
+    }
+  
+    .login a{
+      text-decoration: none;
+      text-decoration-style: none;
+      color:white;
+    }
+  
+    .header{
+      background-image: url("images/city-scape.svg");
+      height: 100%;
+    }
+  
+  
+  
+    .header-text p{
+      font-size: 1.2em;
+      margin: 20px 0;
+      line-height: 2em;
+    }
+    .header-btn{
+      color: white;
+      padding: 10px 20%;
+      background-color: rgb(240, 146, 51);
+      font-size: 1.2em;
+    }
+  
+    #orgs{
+      background-color: rgb(39, 53, 71);
+      color: white;
+      height: 25%;
+    }
+  
+    .orgs-img{
+      height: 100%;
+      width: 45%;
+    }
+  
+    .orgs-text{
+      float: right;
+      margin-left: 5%;
+    }
+  
+    .orgs-list{
+      font-size: 1.2em;
+      margin: 20px 0 20px 10px;
+      line-height: 2em;
+      font-weight: 400;
+    }
+  
+    .orgs-btn{
+      background-color: rgb(203, 56, 55);
+      color: white;
+      padding: 10px 10%;
+      font-size: 1.1em;
+    }
+   
+  
+  
+    #install{
+      background-image: url("images/forklift.svg");
+      color: white;
+    }
+  
+    .install-text{
+      display: block;
+      width: 50%;
+    }
+  
+    .install-text p{
+      font-size: 1.2em;
+      margin: 20px 0;
+      line-height: 2em;
+    }
+  
+    .install-btn{
+      background-color: rgb(49, 68, 88);
+      padding: 10px 5%;
+    }
+  
+    #repo{
+      height: 400px;
+    }
+  
+    .repo-head{
+      text-align: center;
+      font-weight: 200;
+      margin-bottom: 20px;
+      margin: 20px 0;
+      color: rgb(83, 88, 98);
+    }
+  
+    .repo-head p{
+      font-size: 1.1em
+    }
+  
+    .service-box{
+      text-align: center;
+      display: block;
+      color: rgb(135, 145, 156);
+    }
+  
+    .service-box a{
+      text-decoration: none;
+      text-decoration-style: none;
+      color: rgb(208, 74, 73);
+    }
+    
